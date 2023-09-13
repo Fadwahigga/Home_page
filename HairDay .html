@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="HairDay.css" rel="stylesheet" />
+    <title>My Website</title>
+    <style>
+      body {
+        background-color: burlywood;
+        text-align: center;
+      }
+      nav {
+        background-color: white;
+        border-radius: 20px;
+        height: 40px;
+      }
+      header {
+        justify-items: center;
+      }
+      li {
+        display: inline;
+      }
+      a {
+        padding: 8px;
+      }
+      ul {
+        margin: 5px;
+        text-align: center;
+      }
+
+      li a {
+        display: inline;
+        color: black;
+        text-align: center;
+        padding: 10px; /* Add 'px' unit to padding value */
+        text-decoration: none;
+        text-align: center;
+      }
+
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        border-radius: 30px;
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Artboard 1.png" alt="logo" width="10%" height="10%" />
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main
+      class="flex-container"
+      style="justify-content: center; flex-wrap: wrap"
+    >
+      <div style="flex-basis: 100%">This is the first full-width column.</div>
+      <div style="flex-basis: 33.33%">
+        This is the first column in the second row.
+      </div>
+      <div style="flex-basis: 33.33%">
+        This is the second column in the second row.
+      </div>
+      <div style="flex-basis: 33.33%">
+        This is the third column in the second row.
+      </div>
+    </main>
+    <footer
+      class="flex-container"
+      style="justify-content: center; flex-wrap: wrap"
+    >
+      <div style="flex-basis: 50%">This is the first column in the footer.</div>
+      <div style="flex-basis: 50%">
+        This is the second column in the footer.
+      </div>
+    </footer>
+  </body>
+</html>

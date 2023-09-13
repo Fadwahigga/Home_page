@@ -1,0 +1,11 @@
+body{
+    background-color: red;
+    align-content: center;
+    justify-items: center;
+}
+nav{
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: initial;
+    
+}
