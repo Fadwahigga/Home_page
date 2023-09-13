@@ -14,45 +14,47 @@
         background-color: white;
         border-radius: 20px;
         height: 40px;
-      }
-      header {
-        justify-items: center;
+        margin: 5%;
+        text-align: center;
       }
       li {
         display: inline;
-      }
-      a {
-        padding: 8px;
+        margin-left: 5%;
+        margin-right: 5%;
       }
       ul {
-        margin: 5px;
         text-align: center;
+        padding: 10px;
       }
 
       li a {
-        display: inline;
         color: black;
         text-align: center;
-        padding: 10px; /* Add 'px' unit to padding value */
+        padding: 5px;
+        /* Add 'px' unit to padding value */
         text-decoration: none;
         text-align: center;
       }
 
       /* Change the link color to #111 (black) on hover */
       li a:hover {
-        border-radius: 30px;
+        border-radius: 10px;
         background-color: burlywood;
+      }
+      .second{
+        margin: 5%;
       }
     </style>
   </head>
   <body>
     <header>
-      <img src="Artboard 1.png" alt="logo" width="10%" height="10%" />
+      <img src="Artboard 1.png" alt="logo" width="20%" height="20%" />
     </header>
     <nav>
-      <ul>
+      <ul class="list">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
@@ -60,15 +62,17 @@
       class="flex-container"
       style="justify-content: center; flex-wrap: wrap"
     >
-      <div style="flex-basis: 100%">This is the first full-width column.</div>
-      <div style="flex-basis: 33.33%">
-        This is the first column in the second row.
-      </div>
-      <div style="flex-basis: 33.33%">
-        This is the second column in the second row.
-      </div>
-      <div style="flex-basis: 33.33%">
-        This is the third column in the second row.
+      <div style="flex-basis: 100%"><img src="Artboard 23.png" alt="logo" width="20%" height="20%" class="second" /></div>
+      <div>
+        <div style="flex-basis: 33.33%">
+          This is the first column in the second row.
+        </div>
+        <div style="flex-basis: 33.33%">
+          This is the second column in the second row.
+        </div>
+        <div style="flex-basis: 33.33%">
+          This is the third column in the second row.
+        </div>
       </div>
     </main>
     <footer
