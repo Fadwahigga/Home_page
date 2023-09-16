@@ -50,9 +50,13 @@ p {
   margin: 2px;
   float: left;
   width: 100%;
-  height: 100p;
+  height: 10%;
   font-size: smaller;
   text-align: left;
+}
+.more {
+  float: left;
+  font-size: smaller;
 }
 footer {
   justify-content: space-between;
