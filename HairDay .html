@@ -46,16 +46,17 @@
       }
       .imag {
         width: 33.33%;
-        height: 100%;
+        height: 700px;
         margin: 0 1% 1% 0;
-        padding:  2%;
+        padding: 2%;
         border-radius: 10px;
         border-color: white;
         border: 2px;
         border-style: groove;
-        
       }
-      h1{font-size: medium;}
+      h1 {
+        font-size: medium;
+      }
       p {
         margin: 2px;
         float: left;
@@ -64,7 +65,16 @@
         font-size: smaller;
         text-align: left;
       }
-      footer div{width: 50%;}
+      footer {
+        justify-content: space-between;
+        display: flex;
+        border-top: 1px groove gray;
+        padding-top: 1%;
+        margin-top: 10%;
+      }
+      footer div {
+        width: 50%;
+      }
     </style>
   </head>
   <body>
@@ -79,10 +89,7 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <main
-      class="flex-container"
-      style="justify-content: center;"
-    >
+    <main class="flex-container" style="justify-content: center">
       <div style="flex-basis: 100%">
         <img
           src="Artboard 23.png"
@@ -93,7 +100,7 @@
         />
       </div>
       <div style="display: flex">
-        <div  class="imag">
+        <div class="imag">
           <h1>Services</h1>
           <img
             src="1.png"
@@ -107,10 +114,11 @@
             business, we expanded and relocated to current location in 2018.
             Thanks to the loyalty of our customers we continue to enjoy success
             in our field. We strive hard to make all our customers dreams come
-            true.
+            true. <br />
+            <a href="#">More</a>
           </p>
         </div>
-        <div  class="imag">
+        <div class="imag">
           <h1>Services</h1>
           <img
             src="2.png"
@@ -122,10 +130,11 @@
           <p>
             Hair Day total service, being completed with living senses and
             heart, promises to make a continuing effort to keep the beauty and
-            value of our customers.
+            value of our customers.<br />
+            <a href="#">More</a>
           </p>
         </div>
-        <div  class="imag">
+        <div class="imag">
           <h1>Services</h1>
           <img
             src="3.png"
@@ -140,25 +149,23 @@
             satisfying customer services are our goals. The Hair Day team
             members feel rewarded when our customers are happy with satisfying
             experience. Enjoy your day with our comfortable services and
-            creative skills for external beauty at Hair Day.
+            creative skills for external beauty at Hair Day.<br />
+            <a href="#">More</a>
           </p>
         </div>
       </div>
     </main>
-    <footer
-      class="flex-container"
-      style="justify-content: space-between;display: flex; margin: 5%; border-top: 1px groove gray ;padding: 3%;"
-    >
-      <div ><img
-        src="Artboard 19.png"
-        alt="logo"
-        width="15%"
-        height="15%"
-        class="second" 
-      /></div>
+    <footer>
       <div>
-        @copyRight
+        <img
+          src="Artboard 19.png"
+          alt="logo"
+          width="20%"
+          height="20%"
+          class="second"
+        />
       </div>
+      <div style="font-size: smaller">@copyRight</div>
     </footer>
   </body>
 </html>
